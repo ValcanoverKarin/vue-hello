@@ -1,4 +1,5 @@
 //1. Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
+//2. Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 //1a. dichiaro la variabile var perche deve essere globale e dichiaro che sto usando Vue
 var app = new Vue (
@@ -6,11 +7,12 @@ var app = new Vue (
     {
         //1c. el dice a Vue su quale elemento html lavorare
         el: '#root',
-
         //1d. il data contiene delle variabili/informazioni che posso stampare nella pagina
         data: {
             //1e. stampo il messaggio Hello Vue.js
             message: 'Hello Vue.js',
+            //1F. aggiungo alla pagina un immagine
+            imgVue: 'img/vuejs.png'
         }
     }
 )
