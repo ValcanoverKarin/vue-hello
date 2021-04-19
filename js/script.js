@@ -6,8 +6,11 @@ var app = new Vue (
     {
         //1c. el dice a Vue su quale elemento html lavorare
         el: '#root',
-        data: {
 
+        //1d. il data contiene delle variabili/informazioni che posso stampare nella pagina
+        data: {
+            //1e. stampo il messaggio Hello Vue.js
+            message: 'Hello Vue.js',
         }
     }
 )
